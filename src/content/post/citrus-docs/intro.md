@@ -1,7 +1,7 @@
 ---
-title: "Introducing Astro Citrus!"
+title: "Introducing Open Mentorship!"
 publishDate: "20 December 2024"
-description: "Astro Citrus is a versatile template for managing blogs and creating comprehensive project documentation"
+description: "Open Mentorship is a versatile template for managing blogs and creating comprehensive project documentation"
 seriesId: citrus-docs
 orderInSeries: 1
 featured: false
@@ -23,7 +23,7 @@ Citrus is a powerful and stylish template designed for both blogging and creatin
 - **Markdown support**, streamlining the writing and editing process.
 - **Flexible customization**, including colors, fonts, layout structure, and more.
 
-## Benefits of Using Astro Citrus
+## Benefits of Using Open Mentorship
 
 1. **Dual-purpose template**: Seamlessly switch between blogging and project documentation.
 2. **Responsive design**: Optimized for desktops, tablets, and mobile devices.

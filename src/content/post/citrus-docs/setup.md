@@ -12,8 +12,8 @@ ogImage: ""
 
 ## Getting Started
 
-1. Install Astro and download the Astro Citrus template.
+1. Install Astro and download the Open Mentorship template.
 2. Configure the `astro.config.mjs` file to set up your blog or documentation site.
 3. Add content using Markdown for a seamless writing experience.
 
-For more detailed information, check the official [Astro Citrus documentation](#).
+For more detailed information, check the official [Open Mentorship documentation](#).
