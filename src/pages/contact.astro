@@ -1,0 +1,53 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+  description: "Get in touch with us through email, social links, or the contact form.",
+  title: "Contact",
+};
+---
+
+<PageLayout meta={meta}>
+
+  <h1 class="title mb-6">Contact</h1>
+  <div class="prose prose-citrus max-w-none">
+    <p>
+      We’d love to hear from you! Whether you have a question, want to collaborate,
+      or just want to say hi, feel free to reach out.
+    </p>
+
+    <h2 class="mt-6">📧 Email</h2>
+    <p>
+      You can email me at 
+      <a href="mailto:yourname@example.com" class="citrus-link">yourname@example.com</a>.
+    </p>
+
+    <h2 class="mt-6">🌐 Socials</h2>
+    <ul class="list-inside list-disc" role="list">
+      <li>
+        <a href="https://twitter.com/yourhandle" class="citrus-link" target="_blank" rel="noreferrer">Twitter</a>
+      </li>
+      <li>
+        <a href="https://linkedin.com/in/yourhandle" class="citrus-link" target="_blank" rel="noreferrer">LinkedIn</a>
+      </li>
+      <li>
+        <a href="https://github.com/yourhandle" class="citrus-link" target="_blank" rel="noreferrer">GitHub</a>
+      </li>
+    </ul>
+
+    <h2 class="mt-6">📝 Contact Form</h2>
+    <p>
+      Prefer using a form? You can set up a contact form integration with 
+      <a href="https://formspree.io/" target="_blank" rel="noreferrer" class="citrus-link">Formspree</a> 
+      or <a href="https://getform.io/" target="_blank" rel="noreferrer" class="citrus-link">Getform</a>.
+    </p>
+
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="mt-4 space-y-4">
+      <input type="text" name="name" placeholder="Your Name" required class="w-full rounded-md border p-2" />
+      <input type="email" name="email" placeholder="Your Email" required class="w-full rounded-md border p-2" />
+      <textarea name="message" rows="4" placeholder="Your Message" required class="w-full rounded-md border p-2"></textarea>
+      <button type="submit" class="rounded-lg bg-citrus px-4 py-2 text-white">Send</button>
+    </form>
+  </div>
+
+</PageLayout>
